@@ -1,0 +1,11 @@
+all:
+	
+gcc -o threadclient threadclient.c
+	
+gcc -o threadserv threadserv.c
+
+
+
+clean:
+	
+rm threadserv threadclient
